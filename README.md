@@ -15,15 +15,6 @@ A sleek, responsive landing page built with **handwritten HTML**, **CSS**, and *
 
 👉 [View it on GitHub Pages](https://rleenrwd.github.io/LandingPagePro/)
 
-## 📁 Project Structure
-
-.
-├── index.html
-├── script.js
-├── style.css
-├── assets/
-│ └── imgs/
-
 ## 🛠️ Tech Stack
 
 - HTML5
@@ -48,24 +39,11 @@ Open index.html in your browser to preview locally
 
 Or visit the GitHub Pages live site above
 
-📣 Contributing
+## 📣 Contributing
+
 Feel free to fork this repo, add features, and submit a pull request. Open to suggestions and improvements!
 
 ## Screenshots
-DESKTOP: 
+![Desktop](image-1.png)
 
-(assets/imgs/screenshots/desktop/1.png)
-
-(assets/imgs/screenshots/desktop/2.png)
-
-(assets/imgs/screenshots/desktop/3.png)
-
-MOBILE:
-
- (assets/imgs/screenshots/mobile/1.png)
-
- (assets/imgs/screenshots/mobile/2.png)
-
- (assets/imgs/screenshots/mobile/3.png)
-
- (assets/imgs/screenshots/mobile/4.png)
+![Mobile](image.png)
