@@ -3,6 +3,11 @@
 
 A sleek, responsive landing page built with **handwritten HTML**, **CSS**, and **Bootstrap 5**. Designed for modern devices and optimized for user experience, SEO, and clarity.
 
+## 🚀 Live Demo
+
+👉 [View it on GitHub Pages](https://rleenrwd.github.io/LandingPagePro/)
+
+
 ## ✨ Features
 
 - 📱 **Responsive Design** – Looks great on mobile, tablet, and desktop
@@ -10,10 +15,6 @@ A sleek, responsive landing page built with **handwritten HTML**, **CSS**, and *
 - 🎨 **Bootstrap 5 & CSS** – Styled with Bootstrap and custom CSS
 - ⚡ **Optimized for Performance** – Fast loading and SEO-friendly structure
 - 🎯 **Conversion Focused** – Includes strong call-to-action elements
-
-## 🚀 Live Demo
-
-👉 [View it on GitHub Pages](https://rleenrwd.github.io/LandingPagePro/)
 
 ## 🛠️ Tech Stack
 
