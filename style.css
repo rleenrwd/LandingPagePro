@@ -1,0 +1,219 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Hero Section Styles */
+.hero {
+    background: url('assets/imgs/mario-gogh-VBLHICVh-lI-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 75vh;
+    position: relative;
+}
+
+/* Main Image Overlay Styles*/
+.heroSpan {
+    font-weight:800;
+}
+.bottom-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 120px; /* adjust height */
+  background-color: rgba(131, 131, 131, 0.6); /* light grey with some transparency */
+  z-index: 1;
+  overflow: hidden;
+}
+
+/* Hero Media Queries */
+@media (max-width: 768px) {
+    #mainH1 {
+        font-size: 2rem;
+    }
+    .lead {
+        font-size: 1rem;
+        margin-bottom: 2px;
+    }
+    .mainButtn {
+        padding: 8px 10px;
+        font-size: 0.8rem;
+        line-height: 1.2;
+    }
+}
+
+/* Bottom-Overlay Text Media Queries */
+
+@media (max-width: 768px) {
+    .heroH6 {
+        font-size: .65rem;
+    }
+    .heroSpan {
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 769px) {
+    .heroH6 {
+        font-size: .8rem;
+    }
+    .heroSpan {
+        font-size: 35px;
+    }
+}
+
+@media (min-width: 992px) {
+    .heroH6 {
+        font-size: 1.05rem;
+    }
+
+    .heroSpan {
+        font-size: 50px;
+    }
+}
+
+/* As Seen Section Styles */
+#asSeen {
+    background-color: whitesmoke;
+    letter-spacing: -0.8px;
+}
+
+#asSeen .container {
+    height: 130px;
+}
+
+.asSeenImgs {
+    max-width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+#trust {
+    padding-top: 5px;
+    font-weight: 500;
+}
+/* As Seen Images Media Queries */
+@media (max-width: 768px) {
+    #trust {
+        font-size:  1rem;
+    }
+    .asSeenImgs {
+        max-width: 80px;
+        object-fit: contain;
+    }
+}
+
+/* Why LandingPage Pro Section Styles */
+#whyImg {
+    border-radius: 50% 20% 30% 70% / 30% 50% 20% 40%;
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background: linear-gradient(to right, transparent, rgba(0,0,0,0.4), transparent);
+}
+
+/* Why LandingPage Pro Media Queries */
+@media (max-width: 768px) {
+    #whyImg {
+        max-width: 100%;
+        max-height: 220px;
+        margin-left: 60px;
+    }
+
+    #whyLandingH2 {
+        font-size: 1.5rem;
+    }
+    #whyLandingP {
+        font-size: .8rem;
+    }
+
+    .blockQuote {
+        font-size: 13px;
+    }
+    .blockquote-footer {
+        font-size: 15px;
+    }
+    hr {
+        height: 1px;
+    }
+}
+
+@media (min-width: 769px) {
+    .blockQuote {
+        font-size: 15px;
+    }
+    .blockquote-footer {
+        font-size: 17px;
+}
+}
+/* Features Section Styles*/
+
+#features {
+    background-color: whitesmoke;
+}
+.circle-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+/* Features Section Media Queries */
+@media (max-width: 768px) {
+    .circle-img {
+        width: 125px;
+        height: 125px;
+    }
+    #features h5 {
+        font-size: 1rem;
+    }
+    #features p {
+        font-size: .8rem;
+    }
+    .secondButtn {
+        padding: 8px 10px;
+        font-size: 0.8rem;
+        line-height: 1.2;
+    }
+}
+
+@media (min-width: 769px){
+    .circle-img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media(min-width: 992px) {
+    .circle-img {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+
+
+/* Footer Styles */
+.footerli {
+    list-style: none;
+}
+
+@media (max-width: 768px){
+    .footerli {
+        font-size: .7rem;
+    }
+    .footerH5 {
+        font-size: .9rem;
+    }
+    .footerSmall {
+        font-size: .7rem;
+    }
+    .footerBtn {
+        padding: 8px 10px;
+        font-size: 0.8rem;
+        line-height: 1.2;
+    }
+}
