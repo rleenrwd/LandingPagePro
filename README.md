@@ -44,6 +44,10 @@ Or visit the GitHub Pages live site above
 Feel free to fork this repo, add features, and submit a pull request. Open to suggestions and improvements!
 
 ## Screenshots
-![Desktop](image-1.png)
+Desktop:
+![image](https://github.com/user-attachments/assets/0a96bce0-6ebe-4167-8262-2138f92f3989)
 
-![Mobile](image.png)
+
+Mobile:
+![image](https://github.com/user-attachments/assets/869192be-fd93-4eca-a9fc-381862af7ec3)
+
