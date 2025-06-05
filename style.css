@@ -2,6 +2,31 @@ body {
     font-family: 'Segoe UI', sans-serif;
 }
 
+/* Navbar Media Queries*/
+
+@media (max-width: 991px) {
+    #navbarNav {
+        display: flexbox;
+        text-align: center;
+        background-color: black;
+    }
+    #navbarNav ul li a {
+        color: white;
+    }
+    .navbarBtn {
+        margin-bottom: 15px;
+        margin-top: 5px;
+        padding: 8px 50px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
+
+.navbarBtn {
+    padding: 8px 50px;
+    font-size: 15px;
+}
+
 /* Hero Section Styles */
 .hero {
     background-color: white;
@@ -27,6 +52,11 @@ body {
   overflow: hidden;
 }
 
+.mainButtn {
+    padding: 8px 55px;
+    font-size: 20px;
+}
+
 /* Hero Media Queries */
 @media (max-width: 768px) {
     #mainH1 {
@@ -37,9 +67,10 @@ body {
         margin-bottom: 2px;
     }
     .mainButtn {
-        padding: 8px 10px;
-        font-size: 0.8rem;
+        padding: 12px 180px;
+        font-size: .8rem;
         line-height: 1.2;
+        
     }
 }
 

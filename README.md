@@ -44,6 +44,6 @@ Or visit the GitHub Pages live site above
 Feel free to fork this repo, add features, and submit a pull request. Open to suggestions and improvements!
 
 ## Screenshots
-![Desktop](image-1.png)
+![alt text](image-1.png)
 
-![Mobile](image.png)
+![alt text](image.png)
