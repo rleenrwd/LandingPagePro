@@ -140,10 +140,10 @@ body {
 
 .custom-card {
   border: 1px solid rgba(255, 255, 255, 0.1); /* light outline */
-  backdrop-filter: blur(4px);
+  backdrop-filter: blur(8px);
   background: rgba(255, 255, 255, 0.05);
   transition: all 0.3s ease;
-  box-shadow: 2px 4px 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 2px 4px 2px 8px rgba(0,0,0,0.1);
   border-radius: 5px;
 }
 
@@ -178,9 +178,10 @@ body {
 
 
 #createBtn {
-    padding: 8px 55px;
-    font-size: 20px;
-    margin-top: 15px;
+    padding: 8px 50px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 500;
 }
 /* How It Works Media Queries */
 
@@ -201,7 +202,7 @@ body {
 
 #why {
     background-color: whitesmoke;
-    clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0 85%);
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 50% 100%, 0 75%);
     padding-bottom: 100px; /* adjust for the triangle tip */
     position: relative;
     z-index: 1;
@@ -264,6 +265,12 @@ hr {
     margin-bottom: 10px;
 }
 
+.secondButtn {
+    padding: 8px 50px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
 /* Features Section Media Queries */
 @media (max-width: 768px) {
     .circle-img {
@@ -277,9 +284,9 @@ hr {
         font-size: .8rem;
     }
     .secondButtn {
-        padding: 8px 10px;
-        font-size: 0.8rem;
-        line-height: 1.2;
+        padding: 8px 50px;
+        font-size: 14px;
+        font-weight: 500;
     }
 }
 
@@ -298,6 +305,60 @@ hr {
 }
 
 
+/*Testimonial Section*/
+#testimonial {
+    background-color: whitesmoke;
+}
+
+.carouselCard {
+  width: 300px;
+  max-width: 300px;
+  transition: transform 0.5s ease, filter 0.5s ease, opacity 0.5s ease;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  box-shadow: 2px 4px 2px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  flex-shrink: 0;
+  margin: 20px 0;
+}
+
+.carouselCard img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+
+.carouselCard.dimmed {
+  filter: blur(1.5px);
+  opacity: 0.6;
+  transform: scale(0.95);
+}
+
+.carouselCard.active {
+  filter: none;
+  opacity: 1;
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(0, 123, 255, 0.3);
+}
+
+.testimonial-carousel {
+  display: flex;
+  overflow: hidden;
+}
+
+
+/* Contact Us Section Styles*/
+#contactUs {
+    background-color: white;
+    padding-bottom: 20px;
+}
+
+#contactUs button {
+    padding: 8px 50px;
+    font-size: 15px;
+    font-weight: 500;
+}
 
 /* Footer Styles */
 .footerli {

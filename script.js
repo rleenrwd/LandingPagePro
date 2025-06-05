@@ -15,3 +15,38 @@ document.getElementById('contactForm').addEventListener('submit', function (e) {
     this.reset();
   }
 });
+
+
+
+
+
+const carousel = document.getElementById('testimonialCarousel');
+
+function rotateCarousel() {
+  const cards = carousel.querySelectorAll('.carouselCard');
+  
+  // Remove current classes
+  cards.forEach(card => {
+    card.classList.remove('active', 'dimmed');
+  });
+
+  // Move first card to the end
+  carousel.appendChild(cards[0]);
+
+  // Reassign classes: center = active
+  const updatedCards = carousel.querySelectorAll('.carouselCard');
+  updatedCards.forEach((card, i) => {
+    if (i === 1) {
+      card.classList.add('active');
+    } else {
+      card.classList.add('dimmed');
+    }
+  });
+}
+
+// Initial setup
+rotateCarousel(); // makes second card active on load
+setInterval(rotateCarousel, 5000); // Rotate every 5s
+
+
+

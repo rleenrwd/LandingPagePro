@@ -26,9 +26,9 @@
         </button>
         <div class="collapse navbar-collapse ms-auto" id="navbarNav">
           <ul class="navbar-nav">
-            <li class="nav-item"><a class="nav-link" href="#why">About</a></li>
-            <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
-            <li class="nav-item"><a class="nav-link" href="#asSeen">Sponsors</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Sponsors</a></li>
             <li class="nav-item"><a class="nav-link" href="#">News</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Testimonials</a></li>
           </ul>
@@ -89,7 +89,7 @@
   <!-- How it Works Section -->
   <section id="howItWorks">
     <div class="container py-4">
-      <h2 class="howItWorksH2 text-center">How It Works</h2>
+      <h2 class="howItWorksH2 text-center mb-4">How It Works</h2>
       <div class="row g-5">
         <div class="col-md-4 ">
           <div class="card custom-card text-center setHeight">
@@ -191,7 +191,65 @@
       <div class="text-center mt-4">
         <button class="btn btn-primary btn-lg secondButtn" type="button">EXPLORE MORE</button>
       </div>
-      
+    </div>
+  </section>
+
+  <!-- Testimonial Section -->
+  <section id="testimonial" class="container-fluid py-5">
+    <h2 class="text-center mb-4">Testimonials</h2>
+    <div class="testimonial-carousel d-flex justify-content-center gap-4" id="testimonialCarousel">
+      <!-- Cards will rotate order -->
+      <div class="carouselCard">
+        <div class="card-body text-center">
+          <p>Nulla tincidunt pharetra elementum. Curabitur libero nisi, eleifend vel imperdiet a, molestie ac eros. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+          <img src="assets/imgs/vinicius-wiesehofer-UOavP_Z38lE-unsplash.jpg" class="rounded-circle mt-3 img-fluid" alt="Customer 1">
+          <small class="d-block mt-2 howItWorksH5">- Jane's Beauty School</small>
+        </div>
+      </div>
+
+      <div class="carouselCard">
+        <div class="card-body text-center">
+          <p>“Pellentesque ultrices non ipsum et bibendum. Integer quis commodo augue, eu facilisis dui. Donec at nibh pellentesque, ultrices quam ut, consequat tortor.”</p>
+          <img src="assets/imgs/good-faces-DSj40n6beGk-unsplash.jpg" class="rounded-circle mt-3 img-fluid" alt="Customer 2">
+          <small class="d-block mt-2 howItWorksH5">- Dev Technologies</small>
+        </div>
+      </div>
+
+      <div class="carouselCard">
+        <div class="card-body text-center">
+          <p>“Nullam sed risus vitae orci aliquet egestas at ac nunc. Vestibulum aliquam odio quis rutrum finibus. Sed et ligula eros. Duis lobortis cursus est, vel dapibus neque scelerisque vitae. ”</p>
+          <img src="assets/imgs/md-duran-gLAVdaai52o-unsplash.jpg" class="rounded-circle mt-3 img-fluid alt="Customer 3">
+          <small class="d-block mt-2 howItWorksH5">- Rose Industries</small>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  
+
+  <!-- Contact Form Section -->
+
+  <section id="contactUs">
+    <div class="container-fluid">
+      <h2 class="contactH2 text-center pt-5">Get Started Today</h2>
+      <p class="text-center">Tell us a little about you and your goals</p>
+      <form id="contactForm" class="mx-auto" style="max-width: 400px;">
+          <div class="mb-2">
+          <label for="name" class="form-label footerli">Your Name</label>
+          <input type="text" class="form-control" id="name" required />
+          </div>
+          <div class="mb-2">
+          <label for="email" class="form-label footerli">Your Email</label>
+          <input type="email" class="form-control" id="email" required />
+          </div>
+          <div class="mb-2">
+          <label for="message" class="form-label footerli">Message</label>
+          <textarea class="form-control" id="message" rows="3" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary footerBtn">SEND</button>
+          <div id="formMsg" class="mt-3"></div>
+      </form>
     </div>
   </section>
 
@@ -199,7 +257,7 @@
   <footer class="text-start py-3 bg-dark text-white">
     <div class="container">
         <div class="row">
-            <div class="col-3">
+            <div class="col">
                 <ul >
                     <h5 class="footerH5">More</h5>
                     <li class="footerli">
@@ -219,7 +277,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-3">
+            <div class="col">
                 <ul >
                     <h5 class="footerH5">Social Media</h5>
                     <li class="footerli">
@@ -236,30 +294,6 @@
                         <p>YouTube</p>
                     </li>
                 </ul>
-            </div>
-            <div class="text-center col-6">
-                  <!-- Contact Section -->
-                <section id="contact" class="py-1 container">
-                    <div class="container">
-                    <h5 class="mb-2 text-center footerH5">Contact Us</h5>
-                    <form id="contactForm" class="mx-auto" style="max-width: 400px;">
-                        <div class="mb-2">
-                        <label for="name" class="form-label footerli">Your Name</label>
-                        <input type="text" class="form-control" id="name" required />
-                        </div>
-                        <div class="mb-2">
-                        <label for="email" class="form-label footerli">Your Email</label>
-                        <input type="email" class="form-control" id="email" required />
-                        </div>
-                        <div class="mb-2">
-                        <label for="message" class="form-label footerli">Message</label>
-                        <textarea class="form-control" id="message" rows="3" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary footerBtn">Send</button>
-                        <div id="formMsg" class="mt-3"></div>
-                    </form>
-                    </div>
-                </section>
             </div>
             <div class="container text-center">
                 <small class="footerSmall">&copy; 2025 LandingPage Pro, By Robert L. Norwood<br></small>
