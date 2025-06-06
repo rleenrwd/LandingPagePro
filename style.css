@@ -389,6 +389,8 @@ footer svg {
     
 }
 
+
+
 @media (max-width: 768px){
     .footerli {
         font-size: .8rem;
@@ -419,25 +421,6 @@ footer svg {
  
 }
 
-@media (min-width: 576px){
-    #projBreak {
-        display: none;
-    }
-    #whyProject {
-        display:none;
-    }
-    #myProjP {
-        font-size: .8rem;
-    }
-    #currProj {
-        display: none;
-    }
-    #myProjH5 {
-        font-size: .9rem;
-    }
-
-}
-
 @media (min-width: 768.1px) {
     #myProjH5 {
         display: none;
@@ -446,4 +429,8 @@ footer svg {
         display: none;
     }
 }
+
+
+
+
 
