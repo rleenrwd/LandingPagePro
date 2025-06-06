@@ -389,6 +389,9 @@ footer svg {
     
 }
 
+#currProj {
+    border-bottom: none;
+}
 
 
 @media (max-width: 768px){
