@@ -1,6 +1,7 @@
 body {
     font-family: 'Segoe UI', sans-serif;
 }
+/*************************************** NAVBAR SECTION ***********************************/
 
 /* Navbar Media Queries*/
 
@@ -27,7 +28,7 @@ body {
     font-size: 15px;
 }
 
-/* Hero Section Styles */
+/*************************************** HERO SECTION ***********************************/
 .hero {
     background-color: white;
     background: url('assets/imgs/mario-gogh-VBLHICVh-lI-unsplash.jpg');
@@ -67,7 +68,7 @@ body {
         margin-bottom: 2px;
     }
     .mainButtn {
-        padding: 12px 180px;
+        padding: 12px 150px;
         font-size: .8rem;
         line-height: 1.2;
         
@@ -104,17 +105,17 @@ body {
     }
 }
 
-/* As Seen Section Styles */
-#asSeen {
+/*************************************** TRUSTED BY SECTION ***********************************/
+#trustedBy {
     background-color: whitesmoke;
     letter-spacing: -0.8px;
 }
 
-#asSeen .container {
+#trustedBy .container {
     height: 140px;
 }
 
-.asSeenImgs {
+.trustedByImgs {
     max-width: 120px;
     height: 120px;
     object-fit: contain;
@@ -124,19 +125,19 @@ body {
     padding-top: 5px;
     font-weight: 500;
 }
-/* As Seen Images Media Queries */
+/* Trusted By Media Queries */
 @media (max-width: 768px) {
     #trust {
         font-size:  1.2rem;
     }
-    .asSeenImgs {
+    .trustedByImgs {
         max-width: 80px;
         object-fit: contain;
     }
 }
 
 
-/* How it Works Section Styles */
+/*************************************** HOW IT WORKS SECTION ***********************************/
 
 .custom-card {
   border: 1px solid rgba(255, 255, 255, 0.1); /* light outline */
@@ -198,7 +199,7 @@ body {
     }
 }
 
-/* Why LandingPage Pro Section Styles */
+/*************************************** 'WHY' LANDINGPAGEPRO SECTION ***********************************/
 
 #why {
     background-color: whitesmoke;
@@ -218,7 +219,7 @@ hr {
     background: linear-gradient(to right, transparent, rgba(0,0,0,0.4), transparent);
 }
 
-/* Why LandingPage Pro Media Queries */
+
 @media (max-width: 768px) {
     #whyImg {
         max-width: 100%;
@@ -252,7 +253,7 @@ hr {
         font-size: 17px;
 }
 }
-/* Features Section Styles*/
+/*************************************** FEATURES SECTION ***********************************/
 
 #features {
     background-color: white;
@@ -305,7 +306,7 @@ hr {
 }
 
 
-/*Testimonial Section*/
+/*************************************** TESTIMONIAL SECTION ***********************************/
 #testimonial {
     background-color: whitesmoke;
 }
@@ -348,7 +349,7 @@ hr {
 }
 
 
-/* Contact Us Section Styles*/
+/*************************************** CONTACT US SECTION ***********************************/
 #contactUs {
     background-color: white;
     padding-bottom: 20px;
@@ -360,24 +361,58 @@ hr {
     font-weight: 500;
 }
 
-/* Footer Styles */
+/*************************************** FOOTER SECTION ***********************************/
 .footerli {
     list-style: none;
 }
 
+footer svg {
+    padding-right: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.footerH5 {
+    border-bottom: 2px solid white;
+    
+}
+
 @media (max-width: 768px){
     .footerli {
-        font-size: .7rem;
+        font-size: .8rem;
     }
     .footerH5 {
         font-size: .9rem;
     }
     .footerSmall {
-        font-size: .7rem;
+        font-size: .8rem;
     }
     .footerBtn {
         padding: 8px 10px;
         font-size: 0.8rem;
         line-height: 1.2;
     }
+    #projBreak {
+        display: none;
+    }
+    #whyProject {
+        display:none;
+    }
+    #myProjP {
+        font-size: .8rem;
+    }
+    #currProj {
+        display: none;
+    }
+ 
 }
+
+@media (min-width: 768.1px) {
+    #myProjH5 {
+        display: none;
+    }
+    #myProjP {
+        display: none;
+    }
+}
+
