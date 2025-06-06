@@ -224,7 +224,7 @@ hr {
     #whyImg {
         max-width: 100%;
         max-height: 220px;
-        margin-left: 60px;
+        margin: 0 auto;
     }
     #why {
         clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0 85%);
@@ -251,7 +251,7 @@ hr {
     #whyImg {
         max-width: 75%;
         max-height: 220px;
-        margin-right: 60px;
+        margin: 0 auto;
     }
 }
 
