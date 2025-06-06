@@ -227,7 +227,7 @@ hr {
         margin-left: 60px;
     }
     #why {
-        clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
+        clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0 85%);
     }
     #whyLandingH2 {
         font-size: 1.5rem;
@@ -244,6 +244,14 @@ hr {
     }
     hr {
         height: 1px;
+    }
+}
+
+@media (max-width: 576px) {
+    #whyImg {
+        max-width: 75%;
+        max-height: 220px;
+        margin-left: 10px;
     }
 }
 
